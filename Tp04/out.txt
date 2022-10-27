@@ -1,0 +1,5 @@
+Car{model='BMV', year=2014, km=40000, price=20000.0}
+Car{model='VW', year=2016, km=9000, price=30000.0}
+Car{model='Toyota', year=2016, km=12000, price=25000.0}
+Car{model='Audi', year=2017, km=2000, price=50000.0}
+Car{model='Renault', year=2019, km=0, price=17000.0}

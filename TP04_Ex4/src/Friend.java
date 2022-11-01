@@ -23,8 +23,10 @@ public abstract class Friend {
     public int post_imageNumber(){
         return 0;
     }
-    public String userType(){
-        return null;
+    public UserType userType()
+    {
+        if(this.equals("CloseFriend")) return UserType.CloseFriend;
+        return UserType.OtherFriend;
     }
     public int friendNumber() {
         return 0;
